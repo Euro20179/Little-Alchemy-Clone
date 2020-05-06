@@ -1,0 +1,8 @@
+z - prints inventory in command prompt
+a - adds item from your inventory to the screen
+l - loads a save
+s - saves current state in a file
+
+left click - drags item
+middle click - removes item from screen
+right click -  duplicates item on screen

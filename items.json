@@ -1,0 +1,538 @@
+{
+	"items": [
+		{
+			"name": "air",
+			"color": [255, 255, 255]
+		},
+		{
+			"name": "earth",
+			"color": [100, 50, 50],
+			"recipe": [
+				[
+					"planet",
+					"water"
+				],
+				[
+					"planet",
+					"terra"
+				]
+			]
+		},
+		{
+			"name": "fire",
+			"color": [255, 0, 0]
+		},
+		{
+			"name": "water",
+			"color": [0, 0, 255]
+		},
+		{
+			"name": "lake",
+			"recipe": [
+				"water",
+				"water"
+			],
+			"color": [0, 0, 255]
+		},
+		{
+			"name": "ocean",
+			"recipe": [
+				[
+					"big",
+					"lake"
+				],
+				[
+					"lake",
+					"lake"
+				]
+			],
+			"color": [0, 0, 255]
+		},
+		{
+			"name": "lava",
+			"recipe": [
+				"fire",
+				"earth"
+			],
+			"color": [200, 0, 0]
+		},
+		{
+			"name": "obsidian",
+			"recipe": [
+				"water",
+				"lava"
+			],
+			"color": [10, 10, 10],
+			"textColor": [255, 255, 255]
+		},
+		{
+			"name": "dust",
+			"recipe": [
+				"earth",
+				"air"
+			]
+		},
+		{
+			"name": "mud",
+			"recipe": [
+				"water",
+				"earth"
+			],
+			"color": [100, 50, 50]
+		},
+		{
+			"name": "sky",
+			"recipe": [
+				"air",
+				"earth"
+			],
+			"color": [10, 30, 255]
+		},
+		{
+			"name": "sun",
+			"recipe": [
+				"fire",
+				"sky"
+			],
+			"color": [255, 255, 0]
+		},
+		{
+			"name": "day",
+			"recipe": [
+				"sun",
+				"sky"
+			],
+			"color": [255, 255, 40]
+		},
+		{
+			"name": "pressure",
+			"recipe": [
+				"air",
+				"air"
+			]
+		},
+		{
+			"name": "the nether",
+			"recipe": [
+				[
+					"obsidian",
+					"fire"
+				],
+				[
+					"obsidian",
+					"flint and steel"
+				]
+			],
+			"image": "./textures/the_nether.png",
+			"textColor": [255, 255, 255],
+			"w": 74,
+			"h": 74
+		},
+		{
+			"name": "stone",
+			"recipe": [
+				"earth",
+				"earth"
+			]
+		},
+		{
+			"name": "plant",
+			"recipe": [
+				[
+					"mud",
+					"sun"
+				],
+				[
+					"water",
+					"dirt"
+				],
+				[
+					"grass",
+					"big"
+				],
+				[
+					"seed",
+					"dirt"
+				],
+				[
+					"seed",
+					"water"
+				],
+				[
+					"seed",
+					"sun"
+				]
+			],
+			"color": [0, 255, 0]
+		},
+		{
+			"name": "seed",
+			"recipe": [
+				"plant",
+				"wind"
+			],
+			"color": [0, 255, 0]
+		},
+		{
+			"name": "wind",
+			"recipe": [
+				"energy",
+				"air"
+			],
+			"color": [255, 255, 255]
+		},
+		{
+			"name": "energy",
+			"recipe": [
+				"plant", 
+				"sun"
+			],
+			"color": [255, 255, 0]
+		},
+		{
+			"name": "seaweed",
+			"recipe": [
+				"plant",
+				"ocean"
+			],
+			"color": [0, 255, 0]
+		},
+		{
+			"name": "oxygen",
+			"recipe": [
+				[
+					"plant",
+					"sun"
+				],
+				[
+					"seaweed",
+					"sun"
+				]
+			]
+		},
+		{
+			"name": "premordial soup",
+			"recipe": [
+				"oxygen",
+				"oxygen"
+			]
+		},
+		{
+			"name": "organism",
+			"recipe": [
+				"premordial soup",
+				"ocean"
+			],
+			"color": [0, 255, 80]
+		},
+		{
+			"name": "land animal",
+			"recipe": [
+				"organism",
+				"earth"
+			],
+			"color": [0, 255, 80]
+		},
+		{
+			"name": "sea animal",
+			"recipe": [
+				"organism",
+				"ocean"
+			],
+			"color": [0, 80, 255]
+		},
+		{
+			"name": "swamp",
+			"recipe": [
+				"plant",
+				"mud"
+			],
+			"color": [50, 255, 50]
+		},
+		{
+			"name": "atmosphere",
+			"recipe": [
+				"sky",
+				"air"
+			],
+			"color": [0, 60, 255]
+		},
+		{
+			"name": "outer space",
+			"recipe": [
+				"atmosphere",
+				"atmosphere"
+			],
+			"color": [20, 20, 20],
+			"textColor": [255, 255, 255]
+		},
+		{
+			"name": "big",
+			"recipe": [
+				"outer space",
+				"outer space"
+			]
+		},
+		{
+			"name": "reptile",
+			"recipe": [
+				[
+					"land animal",
+					"swamp"
+				],
+				[
+					"organism",
+					"swamp"
+				]
+			],
+			"color": [0, 150, 0]
+		},
+		{
+			"name": "dinosour",
+			"recipe": [
+				"big", 
+				"reptile"
+			],
+			"color": [0, 100, 0]
+		},
+		{
+			"name": "star",
+			"recipe":[
+				"sun",
+				"outer space"
+			],
+			"color": [255, 255, 0]
+		},
+		{
+			"name": "planet",
+			"recipe":[
+				"stone",
+				"star"
+			]
+		},
+		{
+			"name": "terra",
+			"recipe": [
+				"planet",
+				"earth"
+			],
+			"color": [0, 200, 0],
+			"tags": [
+				"useless"
+			]
+		},
+		{
+			"name": "earthquake",
+			"recipe": [
+				"earth",
+				"energy"
+			]
+		},
+		{
+			"name": "steam",
+			"recipe": [
+				[
+					"the nether",
+					"water"
+				],
+				[
+					"water",
+					"fire"
+				],
+				[
+					"water",
+					"lava"
+				]
+			]
+		},
+		{
+			"name": "super big",
+			"recipe": [
+				"big",
+				"big"
+			],
+			"image": "./textures/super_big.png",
+			"w": 500,
+			"h": 500,
+			"tags": [
+				"useless"
+			]
+		},
+		{
+			"name": "bricks",
+			"recipe": [
+				"mud",
+				"fire"
+			],
+			"color": [100, 0, 0]
+		},
+		{
+			"name": "tree",
+			"recipe": [
+				"plant",
+				"big"
+			],
+			"color": [20, 200, 20]
+		},
+		{
+			"name": "stick",
+			"recipe": [
+				"tree",
+				"wind"
+			],
+			"color": [150, 40, 40]
+		},
+		{
+			"name": "house",
+			"recipe": [
+				[
+					"bricks",
+					"big"
+				],
+				[
+					"bricks",
+					"bricks"
+				]
+			],
+			"color": [252, 211, 164]
+		},
+		{
+			"name": "human",
+			"recipe": [
+				"house",
+				"land animal"
+			]
+		},
+		{
+			"name": "house plant",
+			"recipe": [
+				"house",
+				"plant"
+			],
+			"color": [0, 255, 0],
+			"tags": [
+				"useless"
+			]
+		},
+		{
+			"name": "pet",
+			"recipe": [
+				["organism",
+				"human"],
+				[
+					"land animal",
+					"human"
+				],
+				[
+					"sea animal",
+					"human"
+				]
+			],
+			"color": [100, 30, 30],
+			"textColor": [255, 255, 255]
+		},
+		{
+			"name": "tool",
+			"recipe": [
+				"tree",
+				"human"
+			]
+		},
+		{
+			"name": "farmer",
+			"recipe": [
+				"plant",
+				"human"
+			]
+		},
+		{
+			"name": "field",
+			"recipe": [
+				["farmer",
+				"earth"],
+				[
+					"grass",
+					"grass"
+				],
+				[
+					"grass",
+					"earth"
+				]
+			],
+			"color": [255, 255, 0]
+		},
+		{
+			"name": "wave",
+			"recipe": [
+				"ocean",
+				"energy"
+			]
+		},
+		{
+			"name": "tsunami",
+			"recipe": [
+				"ocean wave",
+				"big"
+			],
+			"color": [0, 0, 255]
+		},
+		{
+			"name": "food",
+			"recipe": [
+				"farmer",
+				"plant"
+			]
+		},
+		{
+			"name": "grass",
+			"recipe": [
+				["water",
+				"earth"],
+				[
+					"food",
+					"cow"
+				]
+			],
+			"color": [0, 255, 0]
+		},
+		{
+			"name": "livestock",
+			"recipe": [
+				"farmer",
+				"land animal"
+			]
+		},
+		{
+			"name": "cow",
+			"recipe": [
+				"livestock",
+				"grass"
+			]
+		},
+		{
+			"name": "milk",
+			"recipe": [
+				"tool",
+				"cow"
+			],
+			"color": [240, 240, 240]
+		},
+		{
+			"name": "pet food",
+			"recipe": [
+				"food",
+				"pet"
+			],
+			"color": [200, 50, 50]
+		},
+		{
+			"name": "cat",
+			"recipe": [
+				"pet",
+				"milk"
+			],
+			"color": [150, 150, 150],
+			"tags": ["cats are better than dogs"]
+		}
+	]
+}

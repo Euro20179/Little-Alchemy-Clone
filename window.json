@@ -1,0 +1,8 @@
+{
+    "width": 1000,
+    "height": 1000,
+    "bgColor": [75, 75, 75],
+    "font": "arial",
+    "fontSize": 20,
+    "itemWH": [50, 50]
+}

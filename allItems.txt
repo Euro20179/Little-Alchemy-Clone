@@ -1,0 +1,57 @@
+air
+earth
+fire
+water
+lake
+ocean
+lava
+obsidian
+dust
+mud
+sky
+sun
+day
+pressure
+the nether
+stone
+plant
+seed
+wind
+energy
+seaweed
+oxygen
+premordial soup
+organism
+land animal
+sea animal
+swamp
+atmosphere
+outer space
+big
+reptile
+dinosour
+star
+planet
+terra
+earthquake
+steam
+super big
+bricks
+tree
+stick
+house
+human
+house plant
+pet
+tool
+farmer
+field
+wave
+tsunami
+food
+grass
+livestock
+cow
+milk
+pet food
+cat
