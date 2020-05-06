@@ -533,6 +533,28 @@
 			],
 			"color": [150, 150, 150],
 			"tags": ["cats are better than dogs"]
+		},
+		{
+			"name": "volcano",
+			"recipe": [
+				[
+					"earth",
+					"lava"
+				],
+				[
+					"earth",
+					"earthquake"
+				]
+			],
+			"color": [100, 50, 50]
+		},
+		{
+			"name": "mountain",
+			"recipe": [
+				"earth",
+				"earthquake"
+			],
+			"color": [230, 200, 250]
 		}
 	]
 }
